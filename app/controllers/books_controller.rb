@@ -53,5 +53,6 @@ class BooksController < ApplicationController
     params.require(:book).permit(:title, :body)
   end
   
+  
 end
 
